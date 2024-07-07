@@ -1,0 +1,14 @@
+.profile-button {
+  color: #e52020;
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  background-color: #d6d3d1;
+  box-shadow: none;
+  border-radius: 8px;
+}
+
+.profile-button:hover,
+.profile-button:active {
+  box-shadow: none;
+}

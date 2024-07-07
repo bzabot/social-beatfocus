@@ -1,0 +1,29 @@
+.btn-container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-typo {
+  width: 80%;
+  margin-bottom: 10px;
+  color: rgb(105, 105, 105);
+  background-color: #e7e5e4;
+  border-radius: 8px;
+  box-shadow: none;
+  padding: 5px;
+  height: 3rem;
+}
+
+.menu-typo:hover {
+  background-color: #d6d3d1;
+  box-shadow: none;
+}
+
+.active {
+  color: #e52020;
+  background-color: #d6d3d1;
+}
