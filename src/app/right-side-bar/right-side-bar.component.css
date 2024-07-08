@@ -1,0 +1,54 @@
+.users-container {
+  background-color: #e7e5e4;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.title {
+  font: inherit;
+  font-weight: 500;
+  font-size: 1.3rem;
+  align-items: center;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.user_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.user_img {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 500px;
+}
+
+.user_name {
+  margin-left: 5px;
+  font-weight: 400;
+}
+
+.container-left {
+  display: flex;
+  align-items: center;
+}
+
+.btn-follow {
+  color: #e52020;
+  border: none;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-follow:hover {
+  text-decoration: underline;
+  transform: scale(0.9, 0.9);
+}

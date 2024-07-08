@@ -16,3 +16,7 @@ mat-drawer-content {
   justify-content: center;
   align-items: center;
 }
+
+.right-side-bar {
+  width: 20rem;
+}

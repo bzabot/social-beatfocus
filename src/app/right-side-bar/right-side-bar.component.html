@@ -1,0 +1,12 @@
+<div class="users-container">
+  <h2 class="title">Suggested users</h2>
+  <div class="user_container" *ngFor="let user of users">
+    <div class="container-left">
+      <img class="user_img" src="Unknown_person.jpg" alt="unknown_person" />
+      <p class="user_name">{{ user }}</p>
+    </div>
+    <div class="container-right">
+      <button class="btn-follow">Follow</button>
+    </div>
+  </div>
+</div>
