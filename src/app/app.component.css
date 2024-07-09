@@ -11,7 +11,7 @@ mat-drawer {
 
 mat-drawer-content {
   background-color: white;
-  border-radius: 2rem;
+  /* border-radius: 2rem; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,4 +19,8 @@ mat-drawer-content {
 
 .right-side-bar {
   width: 20rem;
+}
+app-posts-area {
+  width: 90%;
+  height: 90%;
 }
