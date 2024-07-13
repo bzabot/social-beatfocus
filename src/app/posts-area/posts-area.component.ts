@@ -16,7 +16,7 @@ export class PostsAreaComponent {
     textContent: 'Some text about some subject',
     subject: 'subject',
     duration: 30,
-    date: 'Jul 11 2024,  22:40',
+    date: 'July 11 2024,  22:40',
   };
 
   posts = [this.post1, this.post1, this.post1, this.post1];
